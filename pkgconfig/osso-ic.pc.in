@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+includedir=@includedir@/icd
+
+Name: osso-ic-lib
+Description: Compatibility header files for osso-ic-dev
+Version: @VERSION@
+Cflags: -I${includedir}

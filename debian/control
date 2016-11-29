@@ -1,0 +1,27 @@
+Source: icd2-osso-ic-dev
+Priority: optional
+Maintainer: Patrik Flykt <patrik.flykt@nokia.com>
+Build-Depends: debhelper (>> 3.0.0), autotools-dev
+Standards-Version: 3.7.2
+Section: net
+
+Package: icd2-osso-ic-dev
+Section: net
+Conflicts: osso-ic-dev
+Replaces: osso-ic-dev
+Provides: osso-ic-dev
+Architecture: all
+Depends:  libosso-dev (>= 1.11-1), libdbus-1-dev (>= 0.61-osso11),
+ libglib2.0-dev (>= 2.8.6-1osso5)
+Description: Compatibility header files for osso-ic-dev
+ The following internal header files are provided for backwards compatibility
+ with osso-ic-dev:
+ * osso-ic-dbus.h
+ * osso-ic-gconf.h
+ * osso-ic.h
+ osso-ic.h contains only two remaining defines that are used elsewhere. The
+ package osso-ic-oss that provided the included header files has been
+ deprecated and removed.
+ .
+ This package should be used only by Connectivity subsystem components as it
+ contains only internal interface definitions.

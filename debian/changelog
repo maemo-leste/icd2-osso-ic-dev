@@ -1,0 +1,12 @@
+icd2-osso-ic-dev (2.0+0m5) unstable; urgency=low
+
+  * This entry has been added by BIFH queue processor
+    Suffix +0m5 added to package revision
+
+ -- Mika Linnanoja <mika.linnanoja@nokia.com>  Mon, 18 May 2009 14:45:53 +0300
+
+icd2-osso-ic-dev (2.0) unstable; urgency=low
+
+  * icd2-osso-ic-dev compatibility package created
+
+ -- Patrik Flykt <patrik.flykt@nokia.com>  Wed, 12 Mar 2008 10:13:10 +0200
