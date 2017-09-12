@@ -1,7 +1,7 @@
 Source: icd2-osso-ic-dev
 Priority: optional
 Maintainer: Patrik Flykt <patrik.flykt@nokia.com>
-Build-Depends: debhelper (>> 3.0.0), autotools-dev
+Build-Depends: debhelper (>> 3.0.0), autotools-dev, libtool, automake
 Standards-Version: 3.7.2
 Section: net
 
