@@ -1,3 +1,9 @@
+icd2-osso-ic-dev (2.0.1) unstable; urgency=medium
+
+  * Port to debhelper 10
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 27 Jul 2019 10:56:51 +0200
+
 icd2-osso-ic-dev (2.0) unstable; urgency=medium
 
   * enable git builds
