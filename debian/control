@@ -1,8 +1,8 @@
 Source: icd2-osso-ic-dev
 Priority: optional
 Maintainer: Patrik Flykt <patrik.flykt@nokia.com>
-Build-Depends: debhelper (>> 3.0.0), autotools-dev, libtool, automake
-Standards-Version: 3.7.2
+Build-Depends: debhelper (>= 10), autotools-dev, libtool, automake
+Standards-Version: 4.3.0
 Section: net
 
 Package: icd2-osso-ic-dev
@@ -10,7 +10,8 @@ Section: net
 Conflicts: osso-ic-dev
 Replaces: osso-ic-dev
 Provides: osso-ic-dev
-Architecture: all
+Architecture: any
+Multi-arch: same
 Depends:  libosso-dev (>= 1.11-1), libdbus-1-dev (>= 0.61-osso11),
  libglib2.0-dev (>= 2.8.6-1osso5)
 Description: Compatibility header files for osso-ic-dev
